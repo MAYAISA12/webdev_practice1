@@ -1,0 +1,395 @@
+body {
+	font-size: 16px;
+	color: #fff;
+	font-family: 'Oxygen', sans-serif;
+}
+
+#header-nav {
+	background-color: #f6b319;
+	border-radius: 0;
+	border: 0;	
+}
+
+#logo-img {
+	background: url(./images/payag2.png) no-repeat;
+	width: 150px;
+	height: 150px;
+	margin: 10px 15px 10px 0;
+}
+
+.navbar-brand {
+	padding-top: 25px;
+}
+
+.navbar-brand h1 { /*RESTAURANT NAME*/
+	font-family: 'Lora', serif;
+	color: #557c3e;
+	font-size: 1.7em;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #222;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: .75;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+	text-decoration: none;
+}
+.navbar-brand p span { /*MAIN BRANCH*/
+	font-family: 'Roboto', sans-serif;
+	text-transform: uppercase;
+	vertical-align: middle;
+}
+#nav-list {
+	margin-top: 10px;
+}
+#nav-list a {
+	color: #951c49;
+	text-align: center;
+	margin-right: 10px;
+}
+#nav-list a:hover {
+	background: #E7E7E7;
+}
+#nav-list a span {
+	font-size: 1.8em;
+}
+#phone {
+	margin-top: 5px;
+}
+#phone a { /*Phone Number*/
+	text-align: center;
+	padding-bottom: 0;
+	white-space: nowrap;
+}
+#phone div { /*We Deliver*/
+color: #557c3e;
+text-align: right;
+padding-right: 15px;
+white-space: nowrap;
+}
+#call-btn a {
+	text-align: center;
+	border-color: white;
+	color: darkred;
+	background-color: #f6b319 ;
+	margin-top: 25px;
+}
+#active {
+	background-color: #e7e7e7;
+}
+html {
+
+	scroll-behavior: smooth;
+}
+/*.navbar-header button.navbar-toggler, .navbar-header .navbar-toggler-icon {
+border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggler {
+	clear: both;
+	margin-top: -30px;
+}*/
+
+/*END HEADER*/
+
+/*FOOTER*/
+.panel-footer {
+	margin-top: 30px;
+	padding-top: 35px;
+	padding-bottom: 30px;
+	background-color: #222;
+	border-top: 0;
+	opacity: .8;
+}
+.panel-footer div.row {
+	margin-bottom: 35px;
+}
+#hours, #address {
+	line-height: 2;
+}
+#hours > span, #address < span {
+	font-size: 1.3em;
+}
+#address p {
+	color: #f6b319;
+	font-size: .8em;
+	line-height: 1.8;
+}
+#testimonials {
+	font-style: italic;
+}
+/************HOME PAGE****************/
+#menu-tile, #specials-tile, #map-tile{
+	height: 250px;
+	width: 100%;
+	margin-bottom: 15px;
+	position: relative;
+	border: 1px solid #F2F3F4;
+	overflow: hidden;
+}
+#menu-tile:hover, #specials-tile:hover, #map-tile:hover{
+	box-shadow: 0 1px 5px 3px yellowgreen;
+}
+#menu-tile {
+	background: url(./images/menu.jpeg);
+	background-position: center;
+}
+#specials-tile {
+	background: url(./images/specialty.jpeg);
+	background-position: center;
+}
+#menu-tile span, #specials-tile span, #map-tile span {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	text-align: center;
+	font-size: 1.6em;
+	text-transform: uppercase;
+	background-color: #000;
+	color: yellowgreen;
+	opacity: .7;
+}
+/*******MENU CATEGORIES PAGE******/
+.category-tile {
+	position: relative;
+	border: 2px solid #3f0c1f;
+	overflow: hidden;
+	width: 200px;
+	height: 200px;
+	margin: 0 auto 15px;
+}
+#price{
+	position: absolute;
+	top: 0;
+	right: 60%;
+	height: 12%;
+	width: 40%;
+	text-align: center;
+	background-color: brown;
+	color: black;
+	opacity: .8;
+}
+.category-tile span {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	text-align: center;
+	font-size: 1.2em;
+	background-color: #000;
+	color: #fff;
+	opacity: .6;
+}
+.category-tile:hover {
+	box-shadow: 0 1px 5px 1px #cccccc;
+}
+#menu-categories-title + div {
+	margin-bottom: 50px;
+	font-family: 'Karla', sans-serif;
+	font-weight: lighter;
+}
+#menu-categories-title { /*MENU CATEGORY*/
+	text-shadow: 1px 1px 1px #222;
+	font-weight: bolder;
+	font-size: 40px;
+	font-style: uppercase;
+	color: whitesmoke ;
+}
+#soup, #main-dish, #side-dish, #palamig {
+	margin: 0 auto;
+	font-family: 'Karla', sans-serif;
+}
+#dish-sections {
+	font-weight: bold;
+	font-size: 25px;
+}
+.next {
+	float: right;
+}
+.previous, .next {
+	background-color: transparent;
+  	color: yellow;
+}
+.previous:hover, .next:hover {
+	background-color: transparent;
+	font-weight: bold;
+  	color: white;
+  	text-decoration: none;
+}
+#carouselExampleInterval, #carouselExampleInterval2{
+	height: 40%;
+	width: 90%;
+	margin: 0 auto;
+	margin-bottom: 50px;
+	position: relative;
+	overflow: hidden;
+}
+.carousel-inner > .carousel-item > img , .carousel-inner2 > .carousel-item2 > img {
+	height: 40%;
+	width: 90%;
+	margin: 0 auto;
+}
+
+
+
+/********X-LARGE DEVICE**********/
+
+@media (min-width: 1200px){
+	body {
+		background: linear-gradient(darkred 64% ,green 70% ) no-repeat;
+	}
+	.jumbotron {
+		background: url(./images/pay_1200x675.jpeg) no-repeat;
+		height: 675px;
+		box-shadow: 0 0 50px red;
+		border: 2px solid darkred;
+		margin-top: 25px;
+	}
+
+}
+
+/********LARGE DEVICE**********/
+
+@media (min-width: 992px) and (max-width: 1199px){
+	body {
+		background: linear-gradient(darkred 60%,green 70%) no-repeat;
+	}
+	.jumbotron {
+		background: url(./images/pay_992x558.jpeg) no-repeat;
+		height: 558px;
+		box-shadow: 0 0 50px red;
+		border: 2px solid darkred;
+		margin-top: 25px;
+	}
+	
+}
+/********MEDIUM DEVICE**********/
+
+@media (min-width: 768px) and (max-width: 991px){
+	body {
+		background: linear-gradient(darkred 60%,green 70%) no-repeat;
+	}
+	.container .jumbotron {
+		background: url(./images/pay_768x576.jpeg) no-repeat;
+		height: 576px;
+		box-shadow: 0 0 50px red;
+		border: 2px solid darkred;
+		margin-top: 25px;
+	}
+	#call-btn a {
+	width: 690px;
+	}
+	#logo-img {
+		background: url(./images/payag_medium2.png) no-repeat;
+		width: 100px;
+		height: 100px;
+		margin: 5px 5px 5px 0;
+	}
+}
+
+/********SMALL DEVICE**********/
+@media (min-width: 576px) and (max-width: 767px){
+	body {
+		background: linear-gradient(darkred 40%,green 60%) no-repeat;
+	}
+	.container .jumbotron {
+		background: url(./images/pay_576x432.jpeg) no-repeat;
+		height: 432px;
+		box-shadow: 0 0 50px red;
+		border: 2px solid darkred;
+		margin-top: 25px;
+	}
+	#call-btn a {
+		width: 510px;
+	}
+	#logo-img {
+		background: url(./images/payag_medium2.png) no-repeat;
+		width: 100px;
+		height: 100px;
+		margin: 5px 5px 5px 0;
+
+	}
+	.navbar-brand {
+		padding-top: 10px;
+		font-size: 80px;
+	}
+	.navbar-brand h1 {
+		padding-top: 10px;
+		font-size: 5vw;
+	}
+	.navbar-brand p {
+		font-size: 3vw;
+		margin-top: 12px;
+	}
+	.navbar-brand p img {
+		height: 20px;
+	}
+}
+
+/******** x-SMALL DEVICE**********/
+
+@media (max-width: 576px) {
+	body {
+		background: linear-gradient(darkred 30%,green 50%) no-repeat;
+	}
+	.container .jumbotron {
+		background: url(./images/pay_576x432.jpeg) no-repeat;
+		height: 376px;
+		box-shadow: 0 0 50px red;
+		border: 2px solid darkred;
+		margin-top: 25px;
+	}
+	#call-btn a {
+		width: 94vw;
+	}
+	.navbar-brand h1 {
+		font-size: 5vw;
+	}
+	.navbar-brand p {
+		font-size: 3vw;
+	}
+	.panel-footer section {
+		margin-bottom: 30px;
+		text-align: center;
+	}
+	.panel-footer section:nth-child(3){
+		margin-bottom: 0;
+	}
+	.panel-footer section hr {
+		width: 50%;
+	}
+}
+	
+	
+
+/******** 2-SMALL DEVICE**********/
+/*@media (max-width: 767px){
+
+.navbar-brand {
+	padding-top: 10px;
+	font-size: 80px;
+}
+.navbar-brand h1 {
+	padding-top: 10px;
+	font-size: 5vw;
+}
+.navbar-brand p {
+	font-size: 3vw;
+	margin-top: 12px;
+}
+.navbar-brand p img {
+	height: 20px;
+}
+}
+
+/*#collapsable-nav a {
+font-size: 1.2em;
+}
+#collapsable-nav a img {
+	font-size: 1em;
+	margin-right: 5px;
+}
+} */
+
